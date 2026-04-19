@@ -270,10 +270,9 @@ src/
 ## Roadmap
 
 | Milestone | Status |
-|------|-----------|--------|
+|-----------|--------|
 | Webhook server · PR diff parsing · Smee local dev | ✅ |
 | Groq AI review · Inline comments · Apply suggestion | ✅ |
 | Context builder · Rate limiting · Cross-file analysis | ✅ |
 | CI/CD · Railway deploy · Professional README | ✅ |
-| GitHub Marketplace listing · Multi-language support | 🔜 |
 
