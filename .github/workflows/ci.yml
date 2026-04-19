@@ -49,6 +49,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy to Railway
-        run: npx -y @railway/cli@latest up --detach
+        run: |
+          if [ -z "$RAILWAY_TOKEN" ]; then
+            echo "⚠️  RAILWAY_TOKEN not set — skipping Railway deployment."
+            echo "   Add RAILWAY_TOKEN to GitHub Secrets to enable auto-deploy."
+            exit 0
+          fi
+          npx -y @railway/cli@latest up --detach
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
