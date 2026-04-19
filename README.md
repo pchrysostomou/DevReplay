@@ -9,7 +9,6 @@ Leave inline comments directly on PR lines — bugs, security issues, and perfor
 [![CI/CD](https://github.com/pchrysostomou/DevReplay/actions/workflows/ci.yml/badge.svg)](https://github.com/pchrysostomou/DevReplay/actions/workflows/ci.yml)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 </div>
 
@@ -270,16 +269,11 @@ src/
 
 ## Roadmap
 
-| Week | Milestone | Status |
+| Milestone | Status |
 |------|-----------|--------|
-| W1 | Webhook server · PR diff parsing · Smee local dev | ✅ |
-| W2 | Groq AI review · Inline comments · Apply suggestion | ✅ |
-| W3 | Context builder · Rate limiting · Cross-file analysis | ✅ |
-| W4 | CI/CD · Railway deploy · Professional README | ✅ |
-| W5 | GitHub Marketplace listing · Multi-language support | 🔜 |
+| Webhook server · PR diff parsing · Smee local dev | ✅ |
+| Groq AI review · Inline comments · Apply suggestion | ✅ |
+| Context builder · Rate limiting · Cross-file analysis | ✅ |
+| CI/CD · Railway deploy · Professional README | ✅ |
+| GitHub Marketplace listing · Multi-language support | 🔜 |
 
----
-
-## License
-
-MIT © [Prodromos Chrysostomou](https://github.com/pchrysostomou)
